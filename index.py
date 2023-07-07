@@ -1,10 +1,9 @@
-name = ["Bijay", "Sagai", "Sandesh", "Anil"]
+number = int(input("Enter the number to get fabonacci number: "))
 
-def print_lol(fname):
-    for each_item in fname:
-        if isinstance(each_item, list):
-            print_lol(each_item)
-
-        else:
-            print(each_item)    
-print_lol(name)
+def faboo(a,b):
+    
+    if a > number:
+        return
+    print(a)
+    faboo(b, a+b)
+faboo(0,1)

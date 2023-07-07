@@ -1,4 +1,5 @@
-import module
-a = module.person1['name']
-print(a)
+import datetime
+ 
 
+time = datetime.time.now()
+print(time)
