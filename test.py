@@ -1,5 +1,5 @@
 import datetime
  
 
-time = datetime.time.now()
-print(time)
+time = datetime.datetime.now()
+print("This is the todays Date & time: ",time)
